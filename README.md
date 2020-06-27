@@ -1,1 +1,3 @@
-# jyarbro.github.io
+# pages
+
+Redirects for various projects.

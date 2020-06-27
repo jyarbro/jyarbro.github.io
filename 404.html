@@ -1,0 +1,16 @@
+<html>
+<body>
+<script>  
+  if (window.location.pathname.startsWith("/so")) {
+    window.location.replace("https://stackoverflow.com/users/2621693");
+  }
+  else if (window.location.pathname.startsWith("/bi")) {
+    window.location.replace("https://github.com/jyarbro/pages/bi.html");
+  }
+  else {
+    const url = "https://github.com/jyarbro";  
+    window.location.replace(url + window.location.pathname);
+  }
+</script>
+</body>
+</html>
