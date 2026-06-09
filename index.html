@@ -1,7 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jyarbro</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: #f0f6fc;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    a {
+      display: block;
+      padding: 0.75rem 2rem;
+      width: 260px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: opacity 0.15s;
+    }
+
+    a:hover {
+      opacity: 0.85;
+    }
+
+    .link-repos {
+      background: #21262d;
+      border: 1px solid #30363d;
+      color: #e6edf3;
+    }
+
+    .link-tool {
+      background: #1f6feb;
+      border: 1px solid #388bfd;
+      color: #ffffff;
+    }
+  </style>
+</head>
 <body>
-<script>
-  window.location.replace("https://github.com/jyarbro");
-</script>
+  <div class="container">
+    <h1>jyarbro</h1>
+    <nav class="links">
+      <a class="link-repos" href="https://github.com/jyarbro?tab=repositories">Repositories</a>
+      <a class="link-tool" href="https://yarbro.me/home-guesser">Home Guesser</a>
+    </nav>
+  </div>
 </body>
 </html>
